@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct Constants{
+    
+    static let buttonFont : UIFont = UIFont(name: "Figtree", size: 16) ?? UIFont.systemFont(ofSize: 16)
+    
+    static let tabFont : UIFont = UIFont(name: "Figtree", size: 14) ?? UIFont.systemFont(ofSize: 16)
+    
+    static let choreFont : UIFont = UIFont(name: "Figtree", size: 16) ?? UIFont.systemFont(ofSize: 16)
+
+}
