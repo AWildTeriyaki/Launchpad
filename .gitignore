@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # macOS
 .DS_Store
  
@@ -26,3 +27,6 @@ Carthage/Build/
 *.log
 *.tmp
 *.swp	
+=======
+xcuserdata/
+>>>>>>> main
