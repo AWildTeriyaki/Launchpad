@@ -31,25 +31,43 @@ struct Login: View {
                     .foregroundStyle(Color("ImperialBlue"))
                 Spacer()
                 Spacer()
-                Text("Login:")
-                    .font(Font(Constants.choreFont))
-                    .foregroundStyle(Color("ImperialBlue"))
+                
                 
                 Form{
                     Section{
                         TextField(text: $email) {
-                            Text("abcd@example.com")
+                            Text("Email:")
                                 .font(Font(Constants.choreFont))
                                 .foregroundStyle(Color("ImperialBlue"))
                         }
-                        
+                    }
+                        Section{
                         TextField(text: $password) {
-                            Text("qwerty")
+                            Text("Password: ")
                                 .font(Font(Constants.choreFont))
                                 .foregroundStyle(Color("ImperialBlue"))
                         }
                         
                     }
+                }
+                .scrollContentBackground(.hidden)
+                .background(Color("AliceBlue"))
+                
+                Button{
+                    
+                } label:{
+                    ZStack{
+
+                    Rectangle()
+                        .foregroundStyle(Color("BlueBell"))
+                        .cornerRadius(30)
+                        
+                    Text("Login")
+                            .font(Font(Constants.choreFont))
+                        .foregroundStyle(Color("AliceBlue"))
+                    }
+                    .padding([.leading, .trailing], 100)
+                    .padding(.top, 80)
                 }
                 Button{
                     
@@ -59,13 +77,14 @@ struct Login: View {
                     Rectangle()
                         .foregroundStyle(Color("BlueBell"))
                         .cornerRadius(30)
-                        .padding(.leading, 50)
-                        .padding(.trailing, 50)
-                        .padding(.all, 85)
-                    Text("Login")
+                        
+                        
+                    Text("Sign Up")
                             .font(Font(Constants.choreFont))
                         .foregroundStyle(Color("AliceBlue"))
                     }
+                    .padding([.leading, .trailing], 100)
+                    .padding(.bottom, 80)
                 }
                 
                 
