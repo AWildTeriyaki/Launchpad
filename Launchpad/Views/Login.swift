@@ -37,7 +37,6 @@ struct Login: View {
                 
                 Form{
                     Section{
-                        
                         TextField(text: $email) {
                             Text("abcd@gmail.com")
                                 .font(Font(Constants.choreFont))
