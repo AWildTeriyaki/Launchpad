@@ -11,7 +11,7 @@ import SwiftUI
 struct Constants{
     
     static let buttonFont : UIFont = UIFont(name: "Figtree-regular", size: 16) ?? UIFont.systemFont(ofSize: 16)
-    static let tabFont : UIFont = UIFont(name: "Figtree-regular", size: 14) ?? UIFont.systemFont(ofSize: 16)
+    static let tabFont : UIFont = UIFont(name: "Figtree-regular", size: 21) ?? UIFont.systemFont(ofSize: 21)
     static let choreFont : UIFont = UIFont(name: "Figtree-regular", size: 30) ?? UIFont.systemFont(ofSize: 30)
 
 }
