@@ -38,7 +38,7 @@ struct Login: View {
                 Form{
                     Section{
                         TextField(text: $email) {
-                            Text("abcd@gmail.com")
+                            Text("abcd@example.com")
                                 .font(Font(Constants.choreFont))
                                 .foregroundStyle(Color("ImperialBlue"))
                         }
