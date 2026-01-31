@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct JobList {
+    var jobs: [Job]
+
+    init(jobs: [Job]) {
+        self.jobs = jobs
+    }
+}
